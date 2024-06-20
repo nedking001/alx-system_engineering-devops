@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$BREATH^$LOVE" | bc
+python -c "import os\nbreath=int(os.getenv('BREATH'))\nlove=int(os.getenv('LOVE'))\nprint(breath ** love)"
