@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "your input here" | rev
+echo "Your input Here" | rev
