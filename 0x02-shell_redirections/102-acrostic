@@ -1,0 +1,2 @@
+#!/bin/bash
+cut -c1 filename.txt | tr -d '\n' && echo
